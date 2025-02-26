@@ -161,5 +161,6 @@ if __name__ == "__main__":
         for point in path:
             print(f"({point[0]:.1f}, {point[1]:.1f})")
         rrt.draw(path)
-    else:
+    else: 
+        print("未找到路径")
         print("未找到路径，请尝试增加最大迭代次数或调整步长参数")
